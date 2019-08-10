@@ -12,6 +12,9 @@ The idea is to write the same software in as many languages both browsers and my
 ##### 2 - Run parcel server
 ``yarn start``
 
+###### Run parcel server for the jsonp handler
+``yarn start:jsonp``
+
 ##### Optional - Run tests *in the future*
 ``yarn test``
 

@@ -5,13 +5,16 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
+    "start:jsonp": "parcel jsonp.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.5.5",
     "axios": "^0.19.0",
+    "jsonp": "^0.2.1",
     "modern-normalize": "^0.5.0",
+    "pify": "^4.0.1",
     "vanilla-masker": "^1.2.0"
   },
   "devDependencies": {
