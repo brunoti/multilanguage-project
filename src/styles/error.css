@@ -1,0 +1,11 @@
+.error {
+  display: none;
+  background: #C91212;
+  padding: 15px;
+  color: #FFF;
+  max-width: 500px;
+}
+
+.error.is-active {
+  display: block;
+}

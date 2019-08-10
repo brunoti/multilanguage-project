@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__button {
+  margin-bottom: 30px;
+}
+
+.form__header {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Fredoka One', Roboto;
+  color: #FFF;
+  margin-bottom: 30px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.form__input {
+  border: 0;
+  background-color: transparent;
+  font-size: 2rem;
+  color: #FFF;
+  outline: 0;
+  font-style: italic;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #FFF;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.form__input::placeholder {
+  font-size: 2rem;
+  color: #FFF;
+  font-style: italic;
+}
+

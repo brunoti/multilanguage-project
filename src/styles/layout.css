@@ -1,0 +1,16 @@
+body {
+  background-image: linear-gradient( 109.6deg,  rgba(27,27,79,1) 11.2%, rgba(120,201,244,1) 100.2% );
+  min-height: 100%;
+}
+html {
+  height: 100%;
+}
+
+.container {
+  padding: 40px;
+  min-height: 100%;
+}
+
+.container__data {
+
+}

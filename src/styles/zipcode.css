@@ -1,0 +1,39 @@
+.zipcode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all ease 0.5;
+}
+
+.zipcode__data {
+  margin-bottom: 20px;
+}
+
+.zipcode__header {
+  font-size: 2rem;
+  text-align: center;
+  color: #FFF;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.zipcode__image {
+  max-width: 500px;
+}
+
+.zipcode.is-active {
+  opacity: 1;
+}
+
+.zipcode__image > img {
+  max-width: 100%;
+}
+
+.zipcode__item {
+  color: #FFF;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}

@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Parcel Sandbox</title>
+	<title>Cep Finder</title>
 	<meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
-
 <body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
+  <main class="container">
+    <div class="form">
+      <h1 class="form__header">CONSULTAR CEP</h1>
+      <input type="text" class="form__input" placeholder="Digite seu CEP...">
+      <div class="form__button">
+        <button class="button" id="submit-button">
+          BUSCAR
+        </button>
+      </div>
+      <div class="error"></div>
+    </div>
+    <div class="zipcode">
+      <div class="zipcode__data">
+        <p id="zipcode-street" class="zipcode__header">
+          Rua Tenente Basílio José Silva Leão
+        </p>
+        <p id="zipcode-neighborhood" class="zipcode__item">
+          Residencial Baldassari
+        </p>
+        <p id="zipcode-city" class="zipcode__item">
+          Franca - SP
+        </p>
+        <p id="zipcode-itself" class="zipcode__item">
+          14401-257
+        </p>
+      </div>
+      <div class="zipcode__image">
+        <img id="zipcode-map" src="">
+      </div>
+    </div>
+  </main>
+	<script src="src/index.js"></script>
 </body>
 
 </html>
